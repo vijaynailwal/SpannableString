@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/spannableTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jsfjkjf djfd dfj fkl  djoj joi jiojid dfijfidkldljfkdj flklkldjflsd  jklsjdljf lsl flldkf ksjkl llsk klsslk lf" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSetForegroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SetForegroundColor" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSetBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SetBackgroundColor" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSetUnderLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SetUnderLine" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSetStrikeThrough"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SetStrikeThrough" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSetRelativeSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SetRelativeSize" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSetStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SetStyle" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSetSuperscript"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SetSuperscript" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSetSubScript"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SetSubScript" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSetSubImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SetSubImage" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSetUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SetUrl" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSetClickable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SetClickable" />
+
+
+</LinearLayout>
